@@ -1,0 +1,1 @@
+This project focuses on stress-testing an AI system to uncover weaknesses, unsafe behaviors, and failure modes. Red teaming simulates adversarial use, edge cases, and unexpected inputs to evaluate system robustness and safety.
