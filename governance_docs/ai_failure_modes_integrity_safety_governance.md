@@ -1,9 +1,9 @@
-# Why AI Fails — And Why It Matters
+# Why AI Fails and Why it Matters
 
 **Why did the AI go to therapy?**  
 *Because it couldn’t stop hallucinating.*
 
-Jokes aside, systems that sound confident while inventing facts are not just punchlines, they expose a real and documented challenge: AI systems can fail in ways that are subtle, systemic, and sometimes harmful. As these tools become embedded in healthcare, hiring, finance, education, and public services, understanding how they failm and how we manage those failures is essential.
+Systems that sound confident while inventing facts expose a real and documented challenge: AI systems can fail in ways that are subtle, systemic, and sometimes harmful. As these tools become embedded in healthcare, hiring, finance, education, and public services, understanding how they failm and how we manage those failures is essential.
 
 AI does not usually fail like a broken lightbulb. More often, it fails in ways that mirror patterns already present in society. One widely discussed case involved the COMPAS risk assessment tool used in U.S. courts, where investigative reporting and academic analyses showed that Black defendants were disproportionately labeled as “high risk” for reoffending compared with white defendants with similar criminal histories [1]. In these situations, the algorithm technically performed its calculations, but the historical bias in the underlying data led to unequal outcomes. Researchers point to systemic bias in training data as a root of these disparities.
 
@@ -11,7 +11,7 @@ Other failures are less about bias and more about overconfidence. Large language
 
 In generative AI research taxonomy, hallucination refers to outputs that are presented confidently as fact but are factually inaccurate, misleading, or unverifiable [3]. These can range from asserting nonexistent historical events to inventing academic papers with plausible-sounding metadata that do not actually exist.
 
-Some problems arise because machines process the world differently than people do. In computer vision research, scholars have shown that neural networks can be sensitive to tiny perturbations — deliberately crafted changes to input images that are imperceptible to humans but cause the model to misclassify them entirely. These so-called adversarial examples demonstrate that models can recognize patterns very differently than humans do, revealing fragility in high-stakes contexts such as autonomous vehicles or medical imaging systems [4].
+Some problems arise because machines process the world differently than people do. In computer vision research, scholars have shown that neural networks can be sensitive to tiny perturbations, deliberately crafted changes to input images that are imperceptible to humans but cause the model to misclassify them entirely. These so called adversarial examples demonstrate that models can recognize patterns very differently than humans do, revealing fragility in high stakes contexts such as autonomous vehicles or medical imaging systems [4].
 
 Then there’s misuse at scale. As generative AI tools became publicly accessible, government and consumer protection agencies warned that scammers were using them to craft more convincing phishing messages and social engineering content. Because these systems can generate coherent text tailored to specific prompts, they lower the barrier for malicious campaigns that aim to deceive end users or harvest sensitive information [5].
 
@@ -19,7 +19,7 @@ To make sense of these issues, it helps to separate three related ideas: AI inte
 
 AI integrity is about consistency between what a system is described to do and what it actually does. If a hiring tool is touted as fair and impartial, integrity demands evidence that its outcomes are not skewed against certain groups. If a clinical decision support tool claims to perform well across diverse populations, integrity requires documentation of performance across those subgroups.
 
-AI safety focuses on reducing harm. It includes stress-testing systems under unusual or extreme conditions, probing for vulnerabilities (including adversarial inputs), and monitoring performance after deployment to catch drift or unexpected behaviors. For example, in healthcare applications, safety evaluation might examine how a model performs with rare diseases or incomplete patient records, not just typical cases.
+AI safety focuses on reducing harm. It includes stress testing systems under unusual or extreme conditions, probing for vulnerabilities (including adversarial inputs), and monitoring performance after deployment to catch drift or unexpected behaviors. For example, in healthcare applications, safety evaluation might examine how a model performs with rare diseases or incomplete patient records, not just typical cases.
 
 AI governance sits at the organizational and societal level. It covers who is accountable, how decisions are reviewed, and what policies and standards apply. Governance includes documentation requirements, risk review processes, regulatory standards, and audit practices. Frameworks such as the National Institute of Standards and Technology AI Risk Management Framework encourage organizations to treat risk management as an ongoing responsibility rather than a one-time checklist [6]. Emerging regulatory regimes like the EU AI Act reflect a broader consensus that oversight must extend beyond technical design to include transparency, accountability, and impact assessment at scale [7].
 
